@@ -29,11 +29,18 @@
     <description>Apache Tomcat JDBC Pool</description>
 
     <dependencies>
-        <dependency>
+        <!-- <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jdbc</artifactId>
             <version>${tomcat.jdbc.version}</version>
             <optional>true</optional>
+        </dependency> -->
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jdbc</artifactId>
+            <version>7.0.81</version>
+            <scope>system</scope>
+            <systemPath>/Users/janithw/Workspace/Debug/public/non-wso2/tomcat/modules/jdbc-pool/target/jdbc-pool-1.2-SNAPSHOT.jar</systemPath>
         </dependency>
     </dependencies>
 
